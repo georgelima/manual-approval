@@ -24,10 +24,10 @@ inputs:
     default: false
   additional-approved-words:
     description: Comma separated list of words that can be used to approve beyond the defaults.
-    default: ''
+    default: ""
   additional-denied-words:
     description: Comma separated list of words that can be used to deny beyond the defaults.
-    default: ''
+    default: ""
 runs:
   using: docker
-  image: docker://ghcr.io/trstringer/manual-approval:1.9.0
+  image: docker://ghcr.io/georgelima/manual-approval:1.9.0
